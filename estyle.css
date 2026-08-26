@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+}
+
+.mim {
+    color:blue;
+    font-size: medium;
+}
+
+.bio {
+    
+    
+    font-weight: 100;
+}
+.contato {
+    
+    background-color: azure;
+}
+
+.info{
+display:flex;
+flex-direction: row;
+justify-content:space-around;
+
+
+}
+.mim{
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(199, 183, 102)
+
+
+
+}
