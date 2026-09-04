@@ -32,3 +32,57 @@ justify-content:space-around;
 
 
 }
+
+footer ul {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+}
+.icone{
+    fill:red;
+    stroke:yellow;
+    stroke-width: 5px;
+    width:75px;
+    height: 75px;
+}
+#sobre {
+    
+    display:flex;
+    flex-direction:row;
+    gap : 50px;
+    padding: 60px;
+    padding-inline:50px;
+}
+
+.iconescontainer{ border: red solid 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+
+} 
+.iconesbloco{
+    border: blue solid 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+#habil {
+    padding-top: 60px;}
+    #habil h3 {
+    text-align: center;}
+.habilidadescontainer{
+    border: blue solid 1px;
+    padding-block: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.habilidadebloco{
+    border:red solid 1px;
+   }    
+   footer{
+    background-color: yellow;
+   }
+
+
