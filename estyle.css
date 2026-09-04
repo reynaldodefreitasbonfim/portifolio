@@ -3,86 +3,88 @@ body {
 }
 
 .mim {
-    color:blue;
+    color: blue;
     font-size: medium;
 }
 
 .bio {
-    
-    
     font-weight: 100;
 }
+
 .contato {
-    
     background-color: azure;
 }
 
-.info{
-display:flex;
-flex-direction: row;
-justify-content:space-around;
-
-
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.mim{
-    font-family:Arial, Arial, Helvetica, sans-serif;
+
+.mim {
+    font-family: Arial, Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(199, 183, 102)
-
-
-
 }
 
 footer ul {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     list-style-type: none;
 }
-.icone{
-    fill:red;
-    stroke:yellow;
+
+.icone {
+    fill: red;
+    stroke: yellow;
     stroke-width: 5px;
-    width:75px;
+    width: 75px;
     height: 75px;
 }
+
 #sobre {
-    
-    display:flex;
-    flex-direction:row;
-    gap : 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
     padding: 60px;
-    padding-inline:50px;
+    padding-inline: 50px;
 }
 
-.iconescontainer{ border: red solid 2px;
+.iconescontainer {
+    border: red solid 2px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
     padding: 5px;
 
-} 
-.iconesbloco{
+}
+
+.iconesbloco {
     border: blue solid 2px;
     display: flex;
     flex-direction: column;
     padding: 5px;
 }
+
 #habil {
-    padding-top: 60px;}
-    #habil h3 {
-    text-align: center;}
-.habilidadescontainer{
+    padding-top: 60px;
+}
+
+#habil h3 {
+    text-align: center;
+}
+
+.habilidadescontainer {
     border: blue solid 1px;
     padding-block: 30px;
     display: flex;
     flex-direction: row;
 }
-.habilidadebloco{
-    border:red solid 1px;
-   }    
-   footer{
+
+.habilidadebloco {
+    border: red solid 1px;
+}
+
+footer {
     background-color: yellow;
-   }
-
-
+}
